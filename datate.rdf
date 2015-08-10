@@ -1,0 +1,759 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalLoopAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#range">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value-Range-Unit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Reader4">
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#sia9bk8tq4o6b3m3jkve"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#dvfkq8dm4c8jse8lhedf"/>
+    <HasName>Reader4</HasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasSchemeVersion">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#USDOD"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GIAI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ADI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GID"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GDTI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SSCC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGCN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CPI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRNP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#WORM">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Memory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#1sat0c74eh77mmbac5u">
+    <HasSerialReference>0037634048</HasSerialReference>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SSCC"/>
+    <HasSchemeVersion>SSCC96</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGCN">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ActiveTag">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RangedIn">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#range"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#8hut29qehiglsoodqac3">
+    <HasSerialNumber>39</HasSerialNumber>
+    <HasItemReference>002298</HasItemReference>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <HasSchemeVersion>SGTIN96</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ReadOnly">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Memory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#tlp96bs1k5s9mksevopr">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#cuutvdcnt8rl5430h13v"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasManagerNumber">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Protocols">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#bh5m15foolc86rg6u7l">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#arf6avrah3hgu9ojc2c0"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasPowerUnit">
+    <rdfs:domain rdf:resource="http://www.w3.org/2007/uwa/context/hardware.owl#Battery"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Unit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ISO">
+    <HasVersion>ISO18185</HasVersion>
+    <HasVersion>ISO16963</HasVersion>
+    <HasVersion>ISO10536</HasVersion>
+    <HasVersion>ISO18047</HasVersion>
+    <HasVersion>ISO24710</HasVersion>
+    <HasVersion>ISO15962</HasVersion>
+    <HasVersion>ISO24729</HasVersion>
+    <HasVersion>ISO24770</HasVersion>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <HasVersion>ISO14223</HasVersion>
+    <HasVersion>ISO11785</HasVersion>
+    <HasVersion>ISO11784</HasVersion>
+    <HasVersion>ISO18046</HasVersion>
+    <HasVersion>ISO18001</HasVersion>
+    <HasVersion>ISO24753</HasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <HasVersion>ISO15961</HasVersion>
+    <HasVersion>ISO28560</HasVersion>
+    <HasVersion>ISO24769</HasVersion>
+    <HasVersion>ISO15459</HasVersion>
+    <HasVersion>ISO24752</HasVersion>
+    <HasVersion>ISO24730</HasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TypeOfAntennaCommunication">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UsedBy">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-Europe"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-America"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#NearField"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Microwave"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LF"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HF"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FarField"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Memory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#IEC">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SSCC">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasSerialNumber">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#USDOD"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GID"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GDTI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CPI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ADI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HandsFree">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CircularPolarizedAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ZigBee">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#AirInterfaceProtocol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ADI">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#PassiveReader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ASTM">
+    <HasVersion>D7435</HasVersion>
+    <HasVersion>D7434</HasVersion>
+    <HasVersion>D7580</HasVersion>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TextAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasServiceReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRNP"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasItemReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasDocumentType">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GDTI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasExtension">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CommunicateWith">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Mobile">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value-Range-Unit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasCompanyPrefix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CPI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GIAI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SSCC"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRNP"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GDTI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGCN"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasSerialReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SSCC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EncodingScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#9equehkv4tu6qqdpifng">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#h6ajlubd1hf2c99ar9j2"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#AirInterfaceProtocol">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Protocols"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasType">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Reader2">
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#6qvdujqrl0gp0okka4vp"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#oun9p9pnjeveecchdphq"/>
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#6v48974pk3ipdffc2a3k"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#dgj6r653v0cmuo9eq9on"/>
+    <HasName>Reader2</HasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value-Range-Unit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ActiveReader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Application">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-Europe">
+    <HasRange>int{&gt;=865,&lt;=868}</HasRange>
+    <HasUnit>MHz</HasUnit>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-Europe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GIAI">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasObjectClass">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasUnit">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Unit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CommunicationMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Follows">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Protocols"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Reader3">
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#8ke4f8hbvpc5anpshrcn"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#1rrts1a93r50qevtgd74"/>
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ne5movimjd9vfg4g34st"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#bh5m15foolc86rg6u7l"/>
+    <HasName>Reader3</HasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#WirelessDevice">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CommunicationCapableDevice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#6v48974pk3ipdffc2a3k">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#dgj6r653v0cmuo9eq9on"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#StandardKochLoop">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalLoopAntenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#sia9bk8tq4o6b3m3jkve">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#dvfkq8dm4c8jse8lhedf"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Reads">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RP">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#AirInterfaceProtocol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDDevice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Microwave">
+    <HasUnit>GHz</HasUnit>
+    <HasRange>float{&gt;=2.45,&lt;=5.8}</HasRange>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Microwave"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasLocationReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalDipoleAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Read-Write">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Memory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasComponentPartReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CPI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#MeanderedAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#arf6avrah3hgu9ojc2c0">
+    <HasSerialNumber>45</HasSerialNumber>
+    <HasItemReference>002296</HasItemReference>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <HasSchemeVersion>SGTIN96</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#h6ajlubd1hf2c99ar9j2">
+    <HasSerialNumber>167</HasSerialNumber>
+    <HasAssetType>02297</HasAssetType>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI"/>
+    <HasSchemeVersion>GRAI170</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#dvfkq8dm4c8jse8lhedf">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#8hut29qehiglsoodqac3"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SemiActiveorPAssiveTag">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TagProtocol">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Protocols"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Is-a">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#WirelessDevice"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDDevice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TransmitAt">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-Europe"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-America"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#PassiveTag"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Microwave"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LF"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HF"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ActiveTag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Holds">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasOriginalPartNumber">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ADI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#keptb1ia1co8o37m9ckk">
+    <HasSerialNumber>40</HasSerialNumber>
+    <HasItemReference>002297</HasItemReference>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <HasSchemeVersion>SGTIN96</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Unit">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value-Range-Unit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TrackingData">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasAntennaGain">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LinearPolarizedAntenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalDipoleAntenna"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#MeanderedAntenna"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TextAntenna"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Inverted_F-Antenna"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ProposedLoop"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalAntenna"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#StandardKochLoop"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CircularPolarizedAntenna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-America">
+    <HasUnit>MHz</HasUnit>
+    <HasRange>int{&gt;=902,&lt;=928}</HasRange>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#UHF-America"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasRange">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#range"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#oun9p9pnjeveecchdphq">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#keptb1ia1co8o37m9ckk"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDDevice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Reader1">
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#tov9jp7or9h8ms00ecda"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#9equehkv4tu6qqdpifng"/>
+    <CommunicateWith rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#tlp96bs1k5s9mksevopr"/>
+    <Reads rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#cuutvdcnt8rl5430h13v"/>
+    <HasName>Reader1</HasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDDevice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRN">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRNP">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasBattery">
+    <rdfs:range rdf:resource="http://www.w3.org/2007/uwa/context/hardware.owl#Battery"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SemiActiveorPAssiveTag"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ActiveTag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ApplicationTypes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HF">
+    <HasUnit>MHz</HasUnit>
+    <ns:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.56</ns:hasValue>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HF"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#WiredDevice">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CommunicationCapableDevice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#dgj6r653v0cmuo9eq9on">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#fcrdngpfn0gpv5d6mlp5"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GID">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Inverted_F-Antenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Fixed">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasAssetType">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GDTI">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#PassiveTag">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2007/uwa/context/hardware.owl#Battery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Handheld">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LLRP">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#AirInterfaceProtocol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CPI">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasPowerValue">
+    <rdfs:domain rdf:resource="http://www.w3.org/2007/uwa/context/hardware.owl#Battery"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#NearField">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TypeOfAntennaCommunication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasIdData">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Value"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TrackingData"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#IdentificationData"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#fcrdngpfn0gpv5d6mlp5">
+    <HasExtensions>274877907103</HasExtensions>
+    <HasLocationReference>00287</HasLocationReference>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN"/>
+    <HasSchemeVersion>SGLN96</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPC">
+    <HasVersion>UHFClass1Gen2</HasVersion>
+    <HasVersion>Class1</HasVersion>
+    <HasVersion>Class0</HasVersion>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LF">
+    <HasUnit>KHz</HasUnit>
+    <ns:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">134.2</ns:hasValue>
+    <ns:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ns:hasValue>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LF"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FrequencyBand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasCouponReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGCN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#DASH7">
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ProposedLoop">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FractalLoopAntenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CommunicationCapableDevice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#LinearPolarizedAntenna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasCAGEorDODAAC">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#USDOD"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ADI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#8ke4f8hbvpc5anpshrcn">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#1rrts1a93r50qevtgd74"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasBatteryLifeTime">
+    <rdfs:domain rdf:resource="http://www.w3.org/2007/uwa/context/hardware.owl#Battery"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasEncodingScheme">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRN"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SSCC"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GDTI"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GRAI"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ADI"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GID"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#USDOD"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGLN"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GSRNP"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GIAI"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#CPI"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGCN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EncodingScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#cuutvdcnt8rl5430h13v">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#q0ab89heu8cl6pbt7r7d"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#FarField">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#TypeOfAntennaCommunication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ne5movimjd9vfg4g34st">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#bh5m15foolc86rg6u7l"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#IdentificationData">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#PartOf">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDReader"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Antenna"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasVersion">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ISO-IEC">
+    <HasVersion>ISO-IEC18000</HasVersion>
+    <HasVersion>ISO-IEC15693</HasVersion>
+    <HasVersion>ISO-IEC18092</HasVersion>
+    <HasVersion>ISO-IEC14443</HasVersion>
+    <HasVersion>ISO-IEC21481</HasVersion>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Standard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#1rrts1a93r50qevtgd74">
+    <HasEncodingScheme rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#1sat0c74eh77mmbac5u"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#6qvdujqrl0gp0okka4vp">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#oun9p9pnjeveecchdphq"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasMemoryType">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#WORM"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#ReadOnly"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#Read-Write"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDtag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#q0ab89heu8cl6pbt7r7d">
+    <HasSerialNumber>34</HasSerialNumber>
+    <HasItemReference>002296</HasItemReference>
+    <HasCompanyPrefix>0011819</HasCompanyPrefix>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#SGTIN"/>
+    <HasSchemeVersion>SGTIN96</HasSchemeVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#HasIndividualAssetReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#GIAI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#tov9jp7or9h8ms00ecda">
+    <Holds rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#9equehkv4tu6qqdpifng"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#RFIDTag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#USDOD">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sico/ontologies/2015/3/RFIDOntology#EPCScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
